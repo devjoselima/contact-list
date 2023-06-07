@@ -1,13 +1,13 @@
 class Contact {
   name: string;
   email: string;
-  number: number;
+  numberContact: number;
   id: number;
 
-  constructor(name: string, email: string, number: number, id: number) {
+  constructor(name: string, email: string, numberContact: number, id: number) {
     this.name = name;
     this.email = email;
-    this.number = number;
+    this.numberContact = numberContact;
     this.id = id;
   }
 }

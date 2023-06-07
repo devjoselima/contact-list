@@ -10,11 +10,11 @@ const ContactList = () => {
     <Container>
       {contacts.map((c) => (
         <Contact
-          key={c.number}
+          key={c.numberContact}
           id={c.id}
           name={c.name}
           email={c.email}
-          number={c.number}
+          numberContact={c.numberContact}
         />
       ))}
     </Container>

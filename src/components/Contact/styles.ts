@@ -5,6 +5,7 @@ export const ContactContainer = styled.div`
   justify-content: space-around;
   align-items: center;
   padding: 16px;
+  width: 780px;
   color: #fff;
   border-bottom: 1px solid #eee;
 
@@ -24,6 +25,7 @@ export const NameContact = styled.textarea`
   font-size: 16px;
   padding-top: 3px;
   height: 27px;
+  margin-right: 5px;
 `;
 
 export const EmailContact = styled.textarea`
@@ -35,6 +37,7 @@ export const EmailContact = styled.textarea`
   font-size: 16px;
   padding-top: 3px;
   height: 27px;
+  margin-right: 5px;
 `;
 
 export const NumberContact = styled.textarea`
@@ -46,6 +49,7 @@ export const NumberContact = styled.textarea`
   font-size: 16px;
   padding-top: 3px;
   height: 27px;
+  margin-right: 5px;
 `;
 
 export const ContainerButtons = styled.div`
